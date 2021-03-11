@@ -1,0 +1,27 @@
+nav {
+  background-color: #CE4257;
+  height: 10vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 3fr;
+}
+nav .nav__link {
+  background-color: #CE4257;
+  width: 150px;
+  height: 10vh;
+  color: #eee;
+}
+nav .nav__skills {
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+
+main {
+  margin: 30vh;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,38 @@
+$color-1: #4F000B;
+$color-2: #720026;
+$color-3: #CE4257;
+$color-4: #F17083;
+$color-5: #FF7F51;
+$color-6: #FF9B54;
+$color-7: #eee;
+
+nav{  
+  background-color: #CE4257;
+  height: 10vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 3fr;
+  
+  .nav__link{
+    background-color: #CE4257;
+    width: 150px;
+    height: 10vh;
+    color: $color-7;
+  }
+
+  .nav__skills{
+    grid-column-start: 6;
+    grid-column-end: 7;
+  }
+}
+
+main{
+  //background-image: url("file path");
+  margin: 30vh;
+  color: $color-7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
