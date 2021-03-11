@@ -14,18 +14,18 @@ nav{
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 3fr;
   
-  .nav__link{
-    background-color: #CE4257;
-    width: 150px;
-    height: 10vh;
-    color: $color-7;
+  background-color: #CE4257;
+  width: 150px;
+  height: 10vh;
+  color: $color-7;
+
   }
 
   .nav__skills{
     grid-column-start: 6;
     grid-column-end: 7;
   }
-}
+
 
 main{
   //background-image: url("file path");

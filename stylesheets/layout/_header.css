@@ -5,14 +5,13 @@ nav {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 3fr;
-}
-nav .nav__link {
   background-color: #CE4257;
   width: 150px;
   height: 10vh;
   color: #eee;
 }
-nav .nav__skills {
+
+.nav__skills {
   grid-column-start: 6;
   grid-column-end: 7;
 }
